@@ -1,0 +1,20 @@
+# Build output
+bin/
+obj/
+publish/
+publish.rar
+*.zip
+
+# IDE / local settings
+.vs/
+*.user
+*.suo
+
+# NuGet
+packages/
+.nuget/
+
+# Secrets — use appsettings.example.json as the template
+appsettings.json
+appsettings.*.json
+!appsettings.example.json
